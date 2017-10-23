@@ -1,0 +1,11 @@
+server:
+  port: 9000
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fegm22/Training
+          searchPaths: Udemy/SpringCloud-Labs/config-server-repository/lab-3-config-client,Udemy/SpringCloud-Labs/config-server-repository/lab-4-config-eureka
+          username: fegm22
+          password: 12345678

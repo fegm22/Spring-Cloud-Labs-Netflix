@@ -1,0 +1,11 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: lab-3-config-client
+  profiles:
+    active:
+      madrid
+  cloud:
+    config:
+      uri: http://localhost:9000
